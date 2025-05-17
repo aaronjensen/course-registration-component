@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require_relative "../init"
+
+require "component_host"
+
+service_name = "course-registration-component"
+
+ComponentHost.start(service_name) do |host|
+  host.register(CourseRegistrationComponent::Start)
+end

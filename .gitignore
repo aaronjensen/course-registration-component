@@ -1,2 +1,4 @@
+.bundle/
 Gemfile.lock
 gems
+settings/message_store_postgres.json
