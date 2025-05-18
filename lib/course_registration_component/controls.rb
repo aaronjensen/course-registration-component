@@ -7,3 +7,4 @@ require "course_registration_component/controls/entity_id"
 require "course_registration_component/controls/time"
 
 require "course_registration_component/controls/commands/open"
+require "course_registration_component/controls/events/opened"
